@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "ethers": "^6.4.0"
-  }
+  },
+  "type": "module"
 }

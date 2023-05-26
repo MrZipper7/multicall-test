@@ -8,7 +8,7 @@ const provider = new JsonRpcProvider('https://rpc.dfkchain.com/');
 // console.log(await signer)
 
 const multiCallAddress = '0xcA11bde05977b3631167028862bE2a173976CA11';
-const multiCallContract = new ethers.Contract(multiCallAddress, MULTICALL_ABI, signer);
+const multiCallContract = new ethers.Contract(multiCallAddress, MULTICALL_ABI, provider);
 // const crystalContract = new ethers.Contract("0x04b9dA42306B023f3572e106B11D82aAd9D32EBb", ERC20_ABI, signer);
 
 const addresses = [
